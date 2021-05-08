@@ -1,0 +1,5 @@
+- Bỏ comment file .env trong .gitignore
+- Ứng dụng gồm 3 quyền chính là guest, user, admin được xác thực bằn
+isAuth, isAdmin, isActived (Tài khoản được kích hoạt)
+- Muốn thêm quyền thì thêm trường is['Tên quyền'] vào collection user 
+đồng thời thêm vào file trong thư mục router để check phía client
