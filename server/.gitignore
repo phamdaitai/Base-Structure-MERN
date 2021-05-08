@@ -1,4 +1,4 @@
 /node_modules
 /logs/history
-# .env
+.env
 package-lock.json
